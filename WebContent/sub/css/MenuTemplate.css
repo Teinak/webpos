@@ -1,0 +1,135 @@
+ul.ewpmenu {
+	z-index: 1000;
+}
+
+ul.ewpmenu,ul.ewpmenu ul {
+	/* Main BG 1 */
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	background-color: transparent;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	z-index: 1000;
+}
+
+ul.horizontal ul {
+	left: 0;
+	top: 100%;
+	z-index: 1000;
+}
+
+ul.ewpmenu li:hover>* {
+	display: block;
+	z-index: 1000;
+}
+
+ul.ewpmenu li:hover {
+	position: relative;
+	z-index: 1000;
+}
+
+ul.ewpmenu ul ul {
+	position: absolute;
+	left: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+ul.ewpmenu {
+	display: block;
+	font-size: 0;
+	float: left;
+	z-index: 1000;
+}
+
+ul.ewpmenu li {
+	display: block;
+	z-index: 1000;
+	white-space: nowrap;
+	/*font-size:0;*/
+	float: left;
+}
+
+ul.horizontal li {
+	float: left;
+	z-index: 1000;
+}
+
+ul.ewpmenu>li,ul.ewpmenu li {
+	margin: 0;
+	z-index: 1000;
+}
+
+ul.ewpmenu a:active,ul.ewpmenu a:focus {
+	outline-style: none;
+	z-index: 1000;
+}
+
+ul.ewpmenu a {
+	/* MAIN BG */
+	display: block;
+	z-index: 1000;
+	vertical-align: middle;
+	text-align: left;
+	cursor: pointer;
+	padding: 14px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: transparent;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+
+ul.ewpmenu ul li {
+	float: none;
+	margin: 10px 0 0;
+	line-height: 15px;
+	z-index: 1000;
+}
+
+ul.ewpmenu ul a {
+	text-align: left;
+	padding: 4px;
+	background-image: none;
+	border-width: 0;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	z-index: 1000;
+}
+
+ul.ewpmenu li:hover>a {
+	/* Main Rollover */
+	background-position: 0 100px;
+	z-index: 1000;
+}
+
+ul.ewpmenu img {
+	border: none;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+ul.ewpmenu img.over {
+	display: none;
+}
+
+ul.ewpmenu li:hover>a img.def {
+	display: none;
+}
+
+ul.ewpmenu li:hover>a img.over {
+	display: inline;
+	z-index: 1000;
+}
+
+ul.ewpmenu span {
+	display: block;
+	z-index: 1000;
+	overflow: visible;
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-right: 0px;
+}
